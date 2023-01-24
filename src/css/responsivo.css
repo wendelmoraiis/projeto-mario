@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: rgb(82, 80, 80);
+    }
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+    .container .mario {
+        max-width: 50%;
+    }
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .container .descricao {
+        color: #ffff;
+        text-align: center;
+    }
+
+}
